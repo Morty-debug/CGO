@@ -1,1 +1,5 @@
-# CGO
+
+### compilar codigo
+```batch
+go build
+```
