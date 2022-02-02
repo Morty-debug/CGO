@@ -10,5 +10,5 @@ func Print(argumento *C.char){
 
 func main(){
 	fmt.Print("Desde Go ")
-	cmain()
+	cmain() //metodo qu esta en gcc.go y en nogcc.go invoca dependiendo del compilado si usara C no lo usara
 }
