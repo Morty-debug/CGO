@@ -11,7 +11,7 @@ int main(int argc, char *argv[]){
 extern void Print(char* argumento); //metodo Print que esta en main.go
 #endif
 
-//metodo main princila para el compilador Go o por el compilador C
+//funcion princila para el compilador Go o por el compilador C
 int cmain(int argc, char *argv[]){
 	int i;
 	printf("Argumentos: %d\n",argc);
